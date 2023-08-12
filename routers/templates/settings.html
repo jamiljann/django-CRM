@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+    
+{% block title %} All Settings of Routers Applicatin {% endblock %}        
+{% block main_heading %}  All Settings of Routers Applicatin  {% endblock %}
+{% block header_content %}  {% endblock %}
+       
+    {% block body %} 
+    
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" autocomplete="off" checked> Radio1
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2" autocomplete="off"> Radio2
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3" autocomplete="off"> Radio3
+        </label>
+    </div>
+
+
+    {% endblock %}
